@@ -23,8 +23,11 @@ const Home = () => {
             {/* <h2>left side</h2> */}
           </div>
 
-          <div className='intro-left'>
-            <h2>right side</h2>
+          <div className='intro-right'>
+            <h1>right side</h1>
+            <div class="bg"></div>
+            <img src="../../assets/WhatsApp Image 2022-02-13 at 12.52.55 PM.jpeg" alt=""/>
+            {/* <img src="../../assets/istockphoto-1057506940-612x612.jpg" alt=""/> */}
           </div>
         </div>
     );
