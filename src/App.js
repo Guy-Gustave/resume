@@ -9,7 +9,7 @@ import Index from './components/presentation/Index';
 function App() {
   return (
     <div className="App">
-      <Index />
+      {/* <Index /> */}
       <Navbar />
       <Home />
       <About />
