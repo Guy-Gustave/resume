@@ -26,15 +26,23 @@
     font-size: 2.5rem;
     font-weight: 750;
     color: transparent;
+    position: relative;
+    white-space: nowrap;
 }
 
 .left-wrapper h2::before {
+    content: attr(data-text);
     font-size: 2.5rem;
     font-weight: 750;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     color: antiquewhite;
     overflow: hidden;
     border-right: 1px solid wheat;
-    animation: presentation 12s linear infinite;
+    animation: presentation 10s linear infinite;
 }
 
 @keyframes presentation {
@@ -43,7 +51,7 @@
     }
 
     50% {
-        width: 100;
+        width: 100%;
     }
 
     100% {
