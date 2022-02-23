@@ -4,14 +4,51 @@
 
 .about {
   display: flex;
+  background-color: #111;
+  color: #ded;
+  height: 80vh;
 
 }
 
 .about-left {
   flex: 1;
+  margin-top: 5rem;
+}
+
+.about-left h1 {
+  margin: 3rem auto;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+.about-left p {
+  font-size: 1.5rem;
+  padding: 1rem 5px;
 }
 
 .about-right {
   flex: 1;
 }
 
+/* .skills */
+ section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 50px;
+  /* line-height: 1rem; */
+
+}
